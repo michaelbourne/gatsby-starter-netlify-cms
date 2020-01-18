@@ -7,9 +7,9 @@
   YARN_FLAGS = "--no-ignore-optional"
 [[redirects]]
   from = "/product/*"
-  to = "/product/index.js"
+  to = "/product/"
   status = 200
 [[redirects]]
   from = "/collection/*"
-  to = "/collection/index.js"
+  to = "/collection/"
   status = 200
