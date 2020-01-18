@@ -5,3 +5,11 @@
 [build.environment]
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
+[[redirects]]
+  from = "/product/*"
+  to = "/product"
+  status = 200
+[[redirects]]
+  from = "/collection/*"
+  to = "/collection"
+  status = 200

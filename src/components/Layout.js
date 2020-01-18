@@ -47,6 +47,7 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
+        <link href="https://cdn.commerce7.com/beta/commerce7.css" rel="stylesheet">
       </Helmet>
       <Navbar />
       <div>{children}</div>

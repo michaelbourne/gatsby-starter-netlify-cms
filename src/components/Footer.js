@@ -108,6 +108,7 @@ const Footer = class extends React.Component {
           </div>
         </div>
       </footer>
+      <script type="text/javascript" src="https://cdn.commerce7.com/beta/commerce7.js" id="c7-javascript" data-tenant="5-forests"></script>
     )
   }
 }
